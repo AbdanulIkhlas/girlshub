@@ -9,8 +9,8 @@ You can let them know you're training to be a data analyst, and are hoping to ha
 Hopefully, you'll end up with some useful recommendations that will benefit you both.
 
 
-what SMART questions did you ask? how did these questions tie into field of the person you chatted with?
-what insight did you discover during your conversation?
-how did the SMART framework hel you arrive at your conclusions?
+what SMART questions did you ask? how did these questions tie into field of the person you chatted with? <br>
+what insight did you discover during your conversation? <br>
+how did the SMART framework hel you arrive at your conclusions? <br>
 
 Now, write 2 - 3 sentences (40 - 60 word) in respons to each of these questions. Type your response in the text box bellow.
