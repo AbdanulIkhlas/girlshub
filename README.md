@@ -2,4 +2,4 @@
 
 ## List Course
 * [Foundation:Data, Data Everywhere](https://github.com/AbdanulIkhlas/google-data-analytics-note/tree/main/1.%20Foundation%20Data%2C%20Data%20Everywhere)
-* [Ask Questions to Make Data-Driven Decisions](https://github.com/AbdanulIkhlas/google-data-analytics-note/wiki/Ask-Questions-to-Make-Data%E2%80%90Driven-Decisions)
+* [Ask Questions to Make Data-Driven Decisions](https://github.com/AbdanulIkhlas/google-data-analytics-note/tree/main/2.%20Ask%20Questions%20to%20Make%20Data-Driven%20Decisions)
