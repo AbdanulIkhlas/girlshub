@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "../components/fragments/Navbar";
 
 const LandingPage = () => {
-  return <div className="bg-red-500">LandingPage</div>;
+  return <div className="font-ubuntu">
+    <Navbar />
+    test
+  </div>;
 };
 
 export default LandingPage;
+

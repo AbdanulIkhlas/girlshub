@@ -1,0 +1,4 @@
+/* Add this CSS to ensure smooth transitions */
+.sidebar {
+  transform: translateX(-100%);
+}
