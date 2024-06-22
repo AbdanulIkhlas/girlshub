@@ -10,12 +10,10 @@ export default {
       // screens: {
       //   hp: "360px",
       // },
-      // colors: {
-      //   primary: "#2C946C", //eucalyptus
-      //   edgewater: "#C1E0D3",
-      //   silverTree: "#7CBCA4",
-      //   shadowGreenn: "#8CC4AC",
-      // },
+      colors: {
+        primary: "#2C946C", //eucalyptus
+        textColor: "#747582",
+      },
       boxShadow: {
         firstShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)",
         cardShadow: "0 5px 16px 0 rgba(0, 0, 0, 0.15)",
