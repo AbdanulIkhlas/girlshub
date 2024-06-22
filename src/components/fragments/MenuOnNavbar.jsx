@@ -32,7 +32,7 @@ const MenuOnNavbar = ({ onMenuClick }) => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-40}
             duration={500}
             onClick={onMenuClick}
           >
