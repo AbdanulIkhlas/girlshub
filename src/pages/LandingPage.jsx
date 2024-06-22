@@ -6,10 +6,11 @@ import LandingPageAbout from "../components/layouts/LandingPageAbout";
 import LandingPageSolution from "../components/layouts/LandingPageSolution";
 import LandingPageContact from "../components/layouts/LandingPageContact";
 import LandingPageTestimoni from "../components/layouts/LandingPageTestimoni";
+import Footer from "../components/fragments/Footer";
 
 const LandingPage = () => {
   return (
-    <div className="font-ubuntu pb-[500px]">
+    <div className="font-ubuntu">
       <Navbar />
       {/* SECTION HOME */}
       <section id="home" className="md:px-[0px] lg:px-[10px]">
@@ -32,9 +33,10 @@ const LandingPage = () => {
         <LandingPageContact />
       </section>
       {/* SECTION TESTIMONI */}
-      <section id="testimoni" className="lg:px-24">
+      <section id="testimoni" className="lg:px-24 mb-4">
         <LandingPageTestimoni />
       </section>
+      <Footer />
     </div>
   );
 };
