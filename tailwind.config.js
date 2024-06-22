@@ -18,11 +18,20 @@ export default {
       boxShadow: {
         firstShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)",
         photoShadow: "0 4px 16px 0 rgba(67, 67, 67, 0.16);",
-        miniCard:"0 3px 2px 0 rgba(0, 0, 0, 0.02), 0 7px 5px 0 rgba(0, 0, 0, 0.03), 0 13px 10px 0 rgba(0, 0, 0, 0.04), 0 22px 18px 0 rgba(0, 0, 0, 0.04), 0 42px 33px 0 rgba(0, 0, 0, 0.05), 0 100px 80px 0 rgba(0, 0, 0, 0.07)",
-        
+        miniCard:
+          "0 3px 2px 0 rgba(0, 0, 0, 0.02), 0 7px 5px 0 rgba(0, 0, 0, 0.03), 0 13px 10px 0 rgba(0, 0, 0, 0.04), 0 22px 18px 0 rgba(0, 0, 0, 0.04), 0 42px 33px 0 rgba(0, 0, 0, 0.05), 0 100px 80px 0 rgba(0, 0, 0, 0.07)",
       },
       backgroundImage: {
         "gradient-to-right": "linear-gradient(to right, #FF698D, #FB3F6C)",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 30s linear infinite",
       },
       // borderRadius: {
       //   customRounded: "52% 48% 48% 52% / 50% 54% 46% 50% ",
