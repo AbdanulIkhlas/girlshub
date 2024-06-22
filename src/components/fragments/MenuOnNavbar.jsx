@@ -24,7 +24,7 @@ const MenuOnNavbar = () => {
         </li>
         <li className="w-full py-4 px-10 hover:bg-slate-200 md:py-0 md:px-0 md:hover:bg-white">
           <LinkScroll
-            to="section2"
+            to="about"
             spy={true}
             smooth={true}
             offset={-70}

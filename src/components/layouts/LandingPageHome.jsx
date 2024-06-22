@@ -10,7 +10,7 @@ const LandingPageHome = () => {
         <h1 className="text-[27px] text-center font-bold text-bigText px-10 lg:text-left lg:text-[48px]">
           Empowering Young Women Everywhere
         </h1>
-        <h3 className="text-center text-textColor px-[50px] mt-4 text-[14px] md:px-[70px] lg:text-left lg:text-[19px] lg:px-0 lg:ps-[40px] lg:pe-[300px]">
+        <h3 className="text-center text-textColor px-[55px] mt-4 text-[14px] md:px-[70px] lg:text-left lg:text-[19px] lg:px-0 lg:ps-[40px] lg:pe-[300px]">
           Boost Your Business Brand Awareness With Us
         </h3>
         <div className="relative z-50 flex flex-col items-center justify-center mt-7 lg:flex-row lg:mt-24 lg:gap-6 lg:justify-start lg:pl-10">
