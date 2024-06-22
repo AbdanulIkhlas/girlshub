@@ -7,9 +7,16 @@ const LandingPageHome = () => {
     <div className="mt-12 font-ubuntu md:flex md:relative md:h-[380px] md:mt-20 lg:h-[470px]">
       {/* section kiri, text */}
       <section className="w-full md:w-[50%] lg:ps-[65px]">
-        <h1 className="text-[27px] text-center font-bold text-bigText px-10 lg:text-left lg:text-[48px]">
-          Empowering Young Women Everywhere
-        </h1>
+        <div className="lg:relative">
+          <img
+            src="./image/frame-home-3.png"
+            alt="garis lengkung"
+            className="hidden absolute top-[70px] right-[130px] lg:block lg:w-[150px]"
+          />
+          <h1 className="text-[27px] text-center font-bold text-bigText px-10 lg:text-left lg:text-[48px]">
+            Empowering Young Women Everywhere
+          </h1>
+        </div>
         <h3 className="text-center text-textColor px-[55px] mt-4 text-[14px] md:px-[70px] lg:text-left lg:text-[19px] lg:px-0 lg:ps-[40px] lg:pe-[300px]">
           Boost Your Business Brand Awareness With Us
         </h3>
