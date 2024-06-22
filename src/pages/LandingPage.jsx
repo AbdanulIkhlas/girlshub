@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/fragments/Navbar";
 import LandingPageHome from "../components/layouts/LandingPageHome";
 import LandingPageBrands from "../components/layouts/LandingPageBrands";
+import LandingPageAbout from "../components/layouts/LandingPageAbout";
 
 const LandingPage = () => {
   return (
@@ -12,8 +13,12 @@ const LandingPage = () => {
         <LandingPageHome />
       </section>
       {/* SECTION BRANDS */}
-      <section id="about">
+      <section id="brand">
         <LandingPageBrands />
+      </section>
+      {/* SECTION ABOUT */}
+      <section id="about" className="md:px-10 lg:px-24">
+        <LandingPageAbout />
       </section>
     </div>
   );
