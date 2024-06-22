@@ -4,6 +4,7 @@ import LandingPageHome from "../components/layouts/LandingPageHome";
 import LandingPageBrands from "../components/layouts/LandingPageBrands";
 import LandingPageAbout from "../components/layouts/LandingPageAbout";
 import LandingPageSolution from "../components/layouts/LandingPageSolution";
+import LandingPageContact from "../components/layouts/LandingPageContact";
 
 const LandingPage = () => {
   return (
@@ -24,6 +25,10 @@ const LandingPage = () => {
       {/* SECTION SOLUTION */}
       <section id="solution" className="px-6 md:px-10 lg:px-24">
         <LandingPageSolution />
+      </section>
+      {/* SECTION CONTACT */}
+      <section id="contact" className="mt-16 lg:px-5">
+        <LandingPageContact />
       </section>
     </div>
   );
