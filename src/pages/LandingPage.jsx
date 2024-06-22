@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div className="font-ubuntu pb-[500px]">
       <Navbar />
       {/* SECTION HOME */}
-      <section id="home" className="md:px-[0px] lg:px-[120px]">
+      <section id="home" className="md:px-[0px] lg:px-[10px]">
         <LandingPageHome />
       </section>
     </div>
