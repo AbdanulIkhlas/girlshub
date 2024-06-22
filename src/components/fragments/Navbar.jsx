@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Sidebar from "./Sidebar";
 import UILogo from "../ui/UILogo";
+import MenuOnNavbar from "./MenuOnNavbar";
 
 const Navbar = () => {
   const [isSidebarVisible, setSidebarVisible] = useState(false);
@@ -30,9 +31,9 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="w-full font-ubuntu border border-black px-5 py-5">
+      <header className="w-full font-ubuntu px-5 py-5">
         {/* view mobile */}
-        <section className="flex gap-1 items-center">
+        <section className="flex gap-1 items-center md:hidden">
           <img
             src="./svg/hamburger-icon.svg"
             alt="icon sidebar"
@@ -41,6 +42,14 @@ const Navbar = () => {
           />
           <UILogo />
           <Sidebar isVisible={isSidebarVisible} sidebarRef={sidebarRef} />
+        </section>
+
+        {/* view desktop */}
+        <section className="hidden md:flex gap-4 items-center lg:px-20 lg:gap-14">
+          <UILogo />
+          <section>
+            <MenuOnNavbar />
+          </section>
         </section>
       </header>
     </div>
