@@ -1,10 +1,11 @@
 import React from "react";
-import ButtonCustom from "../ui/ButtonCustom";
 import { Link } from "react-router-dom";
+import ButtonCustom from "../ui/ButtonCustom";
+import MiniCard from "../fragments/MiniCard";
 
 const LandingPageHome = () => {
   return (
-    <div className="border border-black mt-12 font-ubuntu">
+    <div className="mt-12 font-ubuntu">
       <h1 className="text-[27px] text-center font-bold text-bigText px-10">
         Empowering Young Women Everywhere
       </h1>
@@ -23,6 +24,52 @@ const LandingPageHome = () => {
           </ButtonCustom>
         </Link>
       </div>
+      <section className="relative min-h-[300px]  mt-14 px-2">
+        <div className="absolute w-[95.5%] min-h-[300px] z-40 ">
+          <MiniCard
+            useImage={true}
+            title="100% Business Growth"
+            rating="4.9"
+            reviews="1520 Reviews"
+            customClassName={`absolute z-50 top-0 right-40 w-[160px]`}
+          />
+          <MiniCard
+            useImage={false}
+            title="1000,000 Happy Clients"
+            rating="4.9"
+            reviews="15k Reviews"
+            customClassName={`absolute z-50 top-40 right-44 w-[160px] mt-4`}
+          />
+          <img
+            src="./image/frame-home-1.png"
+            alt="frame 1"
+            className="absolute z-40 top-0 right-0 w-[120px]"
+          />
+          <img
+            src="./image/frame-home-2.png"
+            alt="frame 2"
+            className="absolute z-40 top-14 right-[170px] w-[140px]"
+          />
+          <img
+            src="./image/photo-home-section.png"
+            alt="photo"
+            className="absolute z-50 top-7 right-8 w-[200px] h-[200px] bg-white rounded-full shadow-photoShadow"
+          />
+        </div>
+        {/* rectangle */}
+        <div className="absolute w-[95.5%] min-h-[300px] z-30 bottom-0">
+          <img
+            src="./image/rectangle-left.png"
+            alt="rectangle left"
+            className="absolute left-0 bottom-0 z-20"
+          />
+          <img
+            src="./image/rectangle-right.png"
+            alt="rectangle right"
+            className="absolute right-0 bottom-0 z-10"
+          />
+        </div>
+      </section>
     </div>
   );
 };

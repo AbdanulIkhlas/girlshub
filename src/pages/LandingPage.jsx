@@ -4,7 +4,7 @@ import LandingPageHome from "../components/layouts/LandingPageHome";
 
 const LandingPage = () => {
   return (
-    <div className="font-ubuntu">
+    <div className="font-ubuntu pb-[500px]">
       <Navbar />
       {/* SECTION HOME */}
       <section id="home" className="md:px-[35px] lg:px-[120px]">
