@@ -11,6 +11,10 @@ const Navbar = () => {
     setSidebarVisible(!isSidebarVisible);
   };
 
+  const handleMenuClick = () => {
+    setSidebarVisible(false);
+  };
+
   const handleClickOutside = (event) => {
     if (sidebarRef.current && !sidebarRef.current.contains(event.target)) {
       setSidebarVisible(false);
@@ -41,14 +45,18 @@ const Navbar = () => {
             className="cursor-pointer"
           />
           <UILogo />
-          <Sidebar isVisible={isSidebarVisible} sidebarRef={sidebarRef} />
+          <Sidebar
+            isVisible={isSidebarVisible}
+            sidebarRef={sidebarRef}
+            onMenuClick={handleMenuClick}
+          />
         </section>
 
         {/* view desktop */}
         <section className="hidden md:flex gap-4 items-center lg:px-20 lg:gap-14">
           <UILogo />
           <section>
-            <MenuOnNavbar />
+            <MenuOnNavbar onMenuClick={handleMenuClick} />
           </section>
         </section>
       </header>
