@@ -14,11 +14,11 @@ const MiniCard = ({ useImage, title, rating , reviews, customClassName}) => {
         />
       ) : null}
       <div>
-        <p className="font-medium text-[9px]">{title}</p>
+        <p className="font-semibold text-[9px]">{title}</p>
         <div className="flex gap-1">
-          <img src="./svg/icon-star.svg" alt="icon star" className="w-[9px]"/>
-          <p className="text-[9px]">{rating}</p>
-          <p className="text-[9px] text-textColor">{reviews}</p>
+          <img src="./svg/icon-star.svg" alt="icon star" className="w-[9px]" />
+          <p className="text-[9px] font-semibold">{rating}</p>
+          <p className="text-[9px] text-textColor">{`(${reviews})`}</p>
         </div>
       </div>
     </div>
