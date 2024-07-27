@@ -34,12 +34,22 @@ const Footer = () => {
               >
                 <p className="cursor-pointer">Tentang</p>
               </LinkScroll>
-              <a href="#">Collaboration</a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc_dqnGHYeJWKOTsTDdz_fnos69wvM2qtpKdnTKRN_pzPc30g/viewform?usp=sf_link"
+                target="_blank"
+              >
+                Collaboration
+              </a>
             </div>
             {/* JOIN TALENT */}
             <div className="flex flex-col gap-2 lg:text-lg">
               <h1 className="mb-2 text-lg font-medium lg:text-2xl">Gabung</h1>
-              <a href="#">Join Talent</a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeCXnBDmR5ZQPgD498as3iyP_UsSwWx0lQTGVHyDgr1YLSiig/viewform?usp=sf_link"
+                target="_blank"
+              >
+                Join Talent
+              </a>
             </div>
           </div>
           <div className="text-white flex gap-16 lg:w-[45%] lg:justify-around">
