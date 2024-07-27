@@ -17,9 +17,9 @@ const LandingPage = () => {
         <LandingPageHome />
       </section>
       {/* SECTION BRANDS */}
-      <section id="brand">
+      {/* <section id="brand">
         <LandingPageBrands />
-      </section>
+      </section> */}
       {/* SECTION ABOUT */}
       <section id="about" className="md:px-10 lg:px-24">
         <LandingPageAbout />

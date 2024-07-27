@@ -9,7 +9,7 @@ const MenuOnNavbar = ({ onMenuClick }) => {
           className="w-full py-4 px-10 hover:bg-slate-200 md:py-0 md:px-0 md:hover:bg-white"
           onClick={onMenuClick}
         >
-          <a href="#">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_dqnGHYeJWKOTsTDdz_fnos69wvM2qtpKdnTKRN_pzPc30g/viewform?usp=sf_link" target="_blank">
             <div className="flex gap-6">
               <img src="./svg/collaboration-icon.svg" className="md:hidden" />
               <p className="pe-2">Collaboration</p>
@@ -20,7 +20,7 @@ const MenuOnNavbar = ({ onMenuClick }) => {
           className="w-full py-4 px-10 hover:bg-slate-200 md:py-0 md:px-0 md:hover:bg-white"
           onClick={onMenuClick}
         >
-          <a href="#">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCXnBDmR5ZQPgD498as3iyP_UsSwWx0lQTGVHyDgr1YLSiig/viewform?usp=sf_link" target="_blank">
             <div className="flex gap-6">
               <img src="./svg/join-talent-icon.svg" className="md:hidden" />
               <p className="md:w-[90px]">Join Talent</p>
