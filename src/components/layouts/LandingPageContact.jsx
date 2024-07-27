@@ -42,7 +42,8 @@ const LandingPageContact = () => {
           kepada kami dengan senang hati
         </TextParagraf>
         <a
-          href="#"
+          href="https://wa.me/6287742262612"
+          target="_blank"
           className="md:w-full md:flex md:justify-center lg:justify-start"
         >
           <ButtonCustom
