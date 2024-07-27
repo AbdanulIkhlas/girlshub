@@ -15,13 +15,12 @@ const LandingPageAbout = () => {
         <SecondText>About,</SecondText>
         <HeadTitle customClassName="my-2 lg:my-6">Apa Itu Girlshub?</HeadTitle>
         <TextParagraf customClassName="lg:pe-14">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          GirlsHub adalah platform yang memberdayakan perempuan muda melalui
+          berbagai peluang digital, seperti influencer, model, dan content
+          creator. Kami menyediakan wadah untuk mengembangkan karir, menjalin
+          kolaborasi, dan memperluas jangkauan audiens. Dengan fokus pada
+          kreativitas dan pemberdayaan, GirlsHub membantu wanita muda mencapai
+          potensi penuh mereka dalam dunia digital.
         </TextParagraf>
       </section>
     </div>
