@@ -21,12 +21,18 @@ const LandingPageHome = () => {
           Boost Your Business Brand Awareness With Us
         </h3>
         <div className="relative z-50 flex flex-col items-center justify-center mt-7 lg:flex-row lg:mt-24 lg:gap-6 lg:justify-start lg:pl-10">
-          <a href="#">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeCXnBDmR5ZQPgD498as3iyP_UsSwWx0lQTGVHyDgr1YLSiig/viewform?usp=sf_link"
+            target="_blank"
+          >
             <ButtonCustom customClassName="bg-gradient-to-right text-white cursor-pointer">
               Join Now
             </ButtonCustom>
           </a>
-          <a href="#">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc_dqnGHYeJWKOTsTDdz_fnos69wvM2qtpKdnTKRN_pzPc30g/viewform?usp=sf_link"
+            target="_blank"
+          >
             <ButtonCustom customClassName="border border-borderPink50 text-bigText mt-4 lg:mt-0 ">
               Collaboration
             </ButtonCustom>
